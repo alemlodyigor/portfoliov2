@@ -1,0 +1,32 @@
+:root {
+  --color-bgc-primary: rgb(0, 128, 131);
+  --color-grey-primary: rgb(192, 192, 192);
+  --color-grey-secondary: rgb(128, 128, 128);
+  --color-blue-primary: rgb(0, 0, 128);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 4.8rem;
+  background: linear-gradient(
+    180deg,
+    var(--background-gradient-color1),
+    var(--background-gradient-color2)
+  );
+}

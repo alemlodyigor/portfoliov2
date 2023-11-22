@@ -1,0 +1,30 @@
+.footer {
+  height: 10vh;
+  background-color: var(--color-grey-primary);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.footerContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.containerIMG {
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+}
+
+.containerText {
+}
+
+.icon {
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.clock {
+}
