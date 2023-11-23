@@ -1,6 +1,26 @@
 .menuContainer{
-    position: absolute;
-    background-color: pink;
-    bottom: 9rem;
-    left: 1rem;
+    background-color: var(--color-grey-primary);
+
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    align-self: end;
+}
+
+.option{
+    padding: 2rem;
+    display: flex;
+    flex-direction:column;
+    gap: 2rem;
+}
+
+.btn{
+    background-color: transparent;
+    border:none;
+    cursor:pointer;
+    color: #000;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: var(--color-blue-primary);
 }
