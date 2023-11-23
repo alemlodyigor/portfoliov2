@@ -13,17 +13,18 @@
 }
 
 .containerIMG {
-    width: 3.2rem;
-    height: 3.2rem;
-    border-radius: 50%;
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
 }
 
 .containerText {
+  cursor: pointer;
 }
 
 .icon {
-    width: 3.2rem;
-    height: 3.2rem;
+  width: 3.2rem;
+  height: 3.2rem;
 }
 
 .clock {

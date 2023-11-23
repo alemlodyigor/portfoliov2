@@ -24,10 +24,4 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   font-size: 4.8rem;
-  background: linear-gradient(
-    180deg,
-    var(--background-gradient-color1),
-    var(--background-gradient-color2)
-  );
 }
-
