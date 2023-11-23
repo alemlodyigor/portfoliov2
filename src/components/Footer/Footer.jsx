@@ -5,10 +5,10 @@ import classes from "./Footer.module.css";
 import IMG from "../../assets/avatar.png";
 import Clock from "../Clock/Clock";
 
-const Footer = () => {
+const Footer = (props) => {
   return (
     <footer className={classes.footer}>
-      <div className={classes.footerContainer}>
+      <div className={classes.footerContainer} onClick={props.menu}>
         <img src={IMG} className={classes.containerIMG} alt="Start icon" />
         <p className={classes.containerText}>Start</p>
       </div>
